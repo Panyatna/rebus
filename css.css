@@ -1,0 +1,188 @@
+        *
+        {
+            font-family: Inter;
+            --class-color: #46B755;
+			color: #15374D;
+			font-weight:600;
+        }
+        body
+        {
+            background: url(media/fons.jpg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        p
+        {
+            font-size: 14pt;
+        }
+        table
+        {
+
+            text-align: center;
+            border-radius: .5rem;
+            background: linear-gradient(0.25turn, #46B755, #60B9A6);
+        }
+        td
+        {
+            padding: 6px;
+            background-color: white;
+        }
+        .picField
+        {
+            border:3px solid #5ab62f;
+            width: 100%; 
+			height: auto;
+            background: white;
+            border-radius: 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+        button {
+            background-color: #47b754; 
+            color: #fff; 
+            border-radius: .4rem; 
+            border: 0; 
+            padding: 6px;
+        }
+        button:hover {
+            background-color: #3c9747; 
+        }
+        button:active {
+            background-color: #24592a; 
+        }
+        .greed
+        {
+            width: 90%;
+            height: 90%;
+            display: grid;
+            grid: 0.5fr 1fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 1fr 0.5fr 0.5fr 0.5fr 1fr 0.5fr 0.5fr 1fr 0.5fr / 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+            align-items: auto;
+            align-self: center;
+            justify-content: center;
+            justify-self: center;
+        }
+        .workspace
+        {
+            background: transparent;
+            width: 100%;
+            max-width: 1280px;
+            min-height: 90%;
+            padding-left: 2px;
+            padding-right: 2px;
+            padding-bottom: 20px;
+            border-radius: .5rem;
+        }
+        .cap
+        {
+            border-top: 3px solid var(--class-color);
+            min-height: 100px;
+            width: 100%;
+            background: #f2f2f2;
+            border-radius: 0 0 2rem 2rem;
+            box-shadow: 0 0 15px 3px #cbc9c9;
+            padding-bottom: 20px;
+        }
+        .gen
+        {
+            min-height: 400px;
+            padding: 50px;
+            display: flex;
+            align-items:center;
+            justify-content:center;
+            flex-direction: column;
+        }
+        .element
+        {
+            background: white;
+            width: 200px;
+            min-height: 39px;
+            border-radius: .4rem;
+            cursor: pointer;
+            touch-action: none;
+			z-index: 200;
+			
+        }
+        .dragField
+        {
+            max-width: auto;
+            padding: 10px;
+            margin-left: 10px;
+            display: flex;
+            flex-wrap: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+        }
+        .images
+        {
+            max-width: 150px;
+            max-height: 200px;
+            border-radius: .75rem;
+        }
+        .fields
+        {
+           background: #F2F2F2;
+           border: 3px solid #0D5609;
+           border-radius: .6rem;
+		   background-size: contain;
+		   z-index: 100;
+		   display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .bagage
+        {
+            display: flex;
+            flex-wrap: wrap;
+            width: 60%;
+            height: 30%;
+            margin-bottom: 75px;
+        }
+        .buttonend
+        {
+            background: linear-gradient(0.25turn, #3F8CFF, #60B9A6);
+            border: 0px;
+            min-height: 25px;
+            color: white;
+            font-size: 16pt;
+            font-weight: 500;
+            padding: 12px;
+        }
+        .buttonend:hover
+        {
+            transform: scale(1.01, 1.01);
+        }
+        .results
+        {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background: transparent;
+            top: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .message
+        {
+            min-width: 300px;
+            min-height: 100px;
+            border-radius: .5rem;
+            background: linear-gradient(0.25turn, #46B755, #60B9A6);
+            color: white;
+            opacity: 100;
+            z-index: 10001;
+            padding: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid white;
+            font-size: 16pt;
+        }
+        @font-face {
+            font-family: 'Inter';
+            src: url(fonts/Inter-V.ttf);
+        }
